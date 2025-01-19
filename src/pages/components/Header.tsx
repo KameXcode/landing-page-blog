@@ -1,7 +1,6 @@
 import Navbar from "./Navbar"
 import { Button } from "@/components/ui/button"
 export function Header(){
-    const text_pattern =" text-[24px] text-white font-interstate-blackcondensed"
     return(
         <>
            <div className="bg-custom-gradient flex flex-col w-full h-[600px]  bg-center rounded-bl-[150px]">

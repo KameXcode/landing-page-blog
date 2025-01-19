@@ -1,6 +1,5 @@
 import Image from "next/image"
 export default function Main(){
-    const  interstate = " font-interstate-blackcondensed scale-x-125 "
     return(
         <>
            <div className="flex flex-col font-interstate-blackcondensed items-center mt-[90px]">
@@ -55,8 +54,6 @@ export default function Main(){
                     </p>
                     </div>    
                 </div>
-
-
             </div>
 
         </>
