@@ -8,14 +8,15 @@ export function Header(){
                 </Navbar>
                 <div className="text-center self-center space-y-4 font-interstate-blackcondensed text-white scale-x-125  mt-[90px]">
                     <h1 className="text-3xl sm:text-4xl font-bold">
-                        A modern <br /> publishing platform
+                        <div className="sm:hidden">A modern <br /> publishing platform</div>
+                        <div className="max-md:hidden text-[60px] mt-[70px]">A modern publishing platform</div>
                     </h1>
                     <p className="text-lg sm:text-xl text-gray-600 text-white">
                         Grow your audience and build your <br /> online brand
                     </p>
                 </div>
                 <div className="self-center flex gap-[15px] mt-[40px]">
-                    
+    
                     <Button variant={"secondary"} className="w-[130px] h-[40px] rounded-full">
                         <span className="text-bg-pink font-bold">Start for free</span>
                     </Button>

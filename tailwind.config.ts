@@ -16,8 +16,9 @@ export default {
   			]
   		},
   		backgroundImage: {
-  			'custom-gradient': "linear-gradient(180deg, rgba(255,138,111,1) 40%, rgba(255,124,106,1) 54%, rgba(255,100,98,1) 67%, rgba(255,85,93,1) 79%, rgba(255,67,87,1) 89%), url('/assets/images/bg-pattern-intro-desktop.svg')"
-  		},
+  			'custom-gradient': "linear-gradient(180deg, rgba(255,138,111,1) 40%, rgba(255,124,106,1) 54%, rgba(255,100,98,1) 67%, rgba(255,85,93,1) 79%, rgba(255,67,87,1) 89%), url('/assets/images/bg-pattern-intro-desktop.svg')",
+			"editor-bg" : " url('/assets/images/illustration-editor-desktop.svg') "
+		},
   		colors: {
         "bg-pink": "#ff6462",
         "black-light": "#2a3d5a",
