@@ -16,9 +16,9 @@ export default function Main(){
                             change the looks of a blog.
                             </p>
                       
-                            <div className="font-interstate-blackcondensed">
-                                <h2 className="text-black-light font-bold text-[30px] sm:text-[40px] text-center max-md:flex  max-md:flex-col mb-[30px] "><span>Robust Content</span><span className="-mt-[15px]"> management</span></h2>
-                                <p className="text-center w-[300px] sm:w-[400px] sm:text-[20px] mt-[10px]"> 
+                            <div className="font-interstate-blackcondensed sm:mt-[20px]">
+                                <h2 className="text-black-light font-bold text-[30px] sm:text-[40px] max-md:text-center max-md:flex  max-md:flex-col mb-[30px] "><span>Robust Content</span><span className="-mt-[15px]"> management</span></h2>
+                                <p className="max-md:text-center w-[300px] sm:w-[400px] sm:text-[20px] mt-[10px]"> 
                                 Flexible content management enables users to easily move through posts. Increase the usability of your blog 
                                 by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
                                 </p>

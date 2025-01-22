@@ -11,10 +11,10 @@ export function Navbar(){
                 <div className="flex  " >
                     <Image src={"/assets/images/logo.svg" } alt="logo" width={101} height={40}>
                     </Image >
-                    <ul className=" max-md:hidden  flex gap-[25px] ml-[75px] text-white items-center">
-                        <li className="flex gap-[7px]">Product {arrow_down}</li> 
-                        <li className="flex gap-[7px]">Company {arrow_down}</li> 
-                        <li className="flex gap-[7px]">Connect {arrow_down}</li> 
+                    <ul className=" max-md:hidden flex gap-[25px] ml-[75px] text-white items-center">
+                        <li className="flex gap-[7px]"><Link href={""}>Product</Link> {arrow_down} </li> 
+                        <li className="flex gap-[7px]"><Link href={""}>Company</Link>  {arrow_down}</li> 
+                        <li className="flex gap-[7px]"><Link href={""}>Connect</Link>  {arrow_down}</li> 
                     </ul>
                 </div>
             </div>
